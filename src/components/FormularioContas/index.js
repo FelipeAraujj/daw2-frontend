@@ -2,12 +2,12 @@ import React from "react"
 
 
 function FormularioConta() {
-    
-  return(
+
+  return (
     <div>
-        
+
     </div>
-    
+
   );
 
 

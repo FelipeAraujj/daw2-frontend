@@ -2,12 +2,12 @@ import React from "react"
 
 
 function PaginaLogin() {
-    
-  return(
+
+  return (
     <div>
-        aqui é a pagina de login boa noite!
+      aqui é a pagina de login boa noite!
     </div>
-    
+
   );
 
 

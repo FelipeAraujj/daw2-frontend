@@ -13,24 +13,24 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 
 function BarraNavegacao() {
-   
 
-    return(
-        <Box sx={{ flexGrow: 1 }}>
-        <AppBar position="static">
-          <Toolbar>           
-            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-              Finança Pessoal
-            </Typography>
-            <Button color="inherit">Sair</Button>
-          </Toolbar>
-        </AppBar>
-      </Box>        
-        
-      );
-    
-    
-    }
-    
-    
+
+  return (
+    <Box sx={{ flexGrow: 1 }}>
+      <AppBar position="static">
+        <Toolbar>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+            Finança Pessoal
+          </Typography>
+          <Button color="inherit">Sair</Button>
+        </Toolbar>
+      </AppBar>
+    </Box>
+
+  );
+
+
+}
+
+
 export default BarraNavegacao; 

@@ -2,12 +2,12 @@ import React from "react"
 
 
 function PaginaCadastro() {
-    
-  return(
+
+  return (
     <div>
       bem vindo a pagina de cadastro!
     </div>
-    
+
   );
 
 

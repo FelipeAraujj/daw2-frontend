@@ -2,12 +2,12 @@ import React from "react"
 
 
 function FormularioCompetencia() {
-    
-  return(
+
+  return (
     <div>
-        
+
     </div>
-    
+
   );
 
 
