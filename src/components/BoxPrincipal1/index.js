@@ -12,7 +12,7 @@ function BoxPrincipal1() {
       alignItems="center"
       gap={20}
       p={0}
-      marginLeft={2}
+      marginLeft={10}
       sx={{
         backgroundColor: theme => alpha("#34230E", 0.8),
 
