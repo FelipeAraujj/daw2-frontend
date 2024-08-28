@@ -1,11 +1,11 @@
 import React from "react"
-
+import ImagemPrincipal from "../../components/ImagemPrincipal";
 
 function PaginaLogin() {
 
   return (
     <div>
-      aqui é a pagina de login boa noite!
+      <ImagemPrincipal />
     </div>
 
   );

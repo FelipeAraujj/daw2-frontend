@@ -1,16 +1,30 @@
 import React from "react"
+import { Box } from "@mui/material";
 import BarraNavegacao from "../../components/BarraNavegacao";
 import BoxPrincipal1 from "../../components/BoxPrincipal1";
-import BoxPrincipal2 from "../../components/BoxPrincipal2";
+import ImagemPrincipal from "../../components/ImagemPrincipal";
+
+
 
 
 function PaginaPrincipal() {
 
   return (
     <div>
-      <BarraNavegacao />
-      <BoxPrincipal1 />
-      <BoxPrincipal2 />
+      <ImagemPrincipal>
+        <BarraNavegacao />
+        <Box
+          sx={{ display: "flex" }}
+        >
+          <BoxPrincipal1 />
+          <BoxPrincipal1 />
+          <BoxPrincipal1 />
+          <BoxPrincipal1 />
+
+        </Box>
+
+      </ImagemPrincipal>
+
     </div>
 
   );

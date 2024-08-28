@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
+import { alpha } from '@mui/material';
 
 function BoxPrincipal1() {
   return (
@@ -10,14 +11,13 @@ function BoxPrincipal1() {
       display="flex"
       alignItems="center"
       gap={20}
-      p={2}
+      p={0}
       marginLeft={2}
       sx={{
-        border: '2px solid grey',
-        backgroundColor: "#34230E"
+        backgroundColor: theme => alpha("#34230E", 0.8),
+
       }}
     >
-      campo para digitalização
     </Box>
   );
 }
