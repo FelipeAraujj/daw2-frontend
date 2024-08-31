@@ -15,6 +15,7 @@ function BoxPrincipal1() {
       marginLeft={10}
       sx={{
         backgroundColor: theme => alpha("#34230E", 0.8),
+        borderRadius: 2,
 
       }}
     >
