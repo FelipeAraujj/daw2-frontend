@@ -6,13 +6,13 @@ function BoxPrincipal1() {
   return (
     <Box
       height={700}
-      width={300}
+      width={600}
       my={25}
       display="flex"
       alignItems="center"
       gap={20}
       p={0}
-      marginLeft={10}
+      marginLeft={16}
       sx={{
         backgroundColor: theme => alpha("#34230E", 0.8),
         borderRadius: 2,

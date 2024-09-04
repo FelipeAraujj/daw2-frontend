@@ -5,6 +5,8 @@ import { alpha } from '@mui/material';
 
 function BoxLoginCadastro() {
     return (
+
+        
         <Box
             height={450}
             width={500}
@@ -14,7 +16,7 @@ function BoxLoginCadastro() {
             gap={20}
             p={0}
             marginLeft={68}
-            marginTop={30}
+            marginTop={10}
             sx={{
                 backgroundColor: theme => alpha("#34230E", 0.8),
                 borderRadius: 2,

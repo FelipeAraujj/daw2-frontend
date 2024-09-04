@@ -3,29 +3,32 @@ import FinancaImagem from "../../assets/images/imagemfinançapessoal.jpg"
 import ImagemPrincipal from "../../components/ImagemPrincipal";
 import { Box } from "@mui/material";
 import BoxLoginCadastro from "../../components/BoxLoginCadastro";
+import Typography from '@mui/material/Typography';
+import Titulo from "../../components/Titulo";
 
 
 function PaginaCadastro() {
 
   return (
-    <div>
-      <ImagemPrincipal>
 
-        <Box
-          sx={{ display: "flex" }}
-        >
+    <ImagemPrincipal>
+      <Titulo />
 
-          <BoxLoginCadastro />
+      <Box
+        sx={{ display: "flex" }}
+      >
 
-
-
-        </Box>
+        <BoxLoginCadastro />
 
 
 
+      </Box>
 
-      </ImagemPrincipal>
-    </div>
+
+
+
+    </ImagemPrincipal>
+
 
   );
 

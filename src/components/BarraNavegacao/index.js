@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
+import { useNavigate } from 'react-router-dom';
 
 
 
@@ -14,6 +15,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 function BarraNavegacao() {
 
+  const navigate = useNavigate()
 
   return (
     <Box sx={{ flexGrow: 1 }}>
@@ -25,10 +27,17 @@ function BarraNavegacao() {
         }}
       >
         <Toolbar>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          <Typography variant="h3"
+            component="div"
+            fontStyle={"Italic"}
+            sx={{ flexGrow: 1 }}>
             Finança Pessoal
           </Typography>
-          <Button color="inherit">Sair</Button>
+          <Button
+            color="inherit"
+            onClick={() => { navigate("/login") }}
+          >
+            Sair</Button>
         </Toolbar>
       </AppBar>
     </Box>
