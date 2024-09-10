@@ -2,7 +2,7 @@ import React from "react"
 import FinancaImagem from "../../assets/images/imagemfinançapessoal.jpg"
 import ImagemPrincipal from "../../components/ImagemPrincipal";
 import { Box } from "@mui/material";
-import BoxLoginCadastro from "../../components/BoxLoginCadastro";
+import BoxLogin from "../../components/BoxLogin";
 import Typography from '@mui/material/Typography';
 import Titulo from "../../components/Titulo";
 
@@ -18,7 +18,7 @@ function PaginaCadastro() {
         sx={{ display: "flex" }}
       >
 
-        <BoxLoginCadastro />
+        
 
 
 

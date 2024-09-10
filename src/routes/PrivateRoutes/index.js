@@ -1,4 +1,5 @@
 import PaginaPrincipal from "../../pages/PaginaPrincipal";
+import PaginaLogin from "../../pages/PaginaLogin";
 
 
 const PrivateRoutes = {

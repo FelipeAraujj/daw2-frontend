@@ -1,7 +1,7 @@
 import React from "react"
 import ImagemPrincipal from "../../components/ImagemPrincipal";
 import { Box } from "@mui/material";
-import BoxLoginCadastro from "../../components/BoxLoginCadastro";
+import BoxLogin from "../../components/BoxLogin";
 import Titulo from "../../components/Titulo";
 
 
@@ -21,7 +21,7 @@ function PaginaLogin() {
         sx={{ display: "flex" }}
       >
 
-        <BoxLoginCadastro />
+        <BoxLogin />
 
 
 
