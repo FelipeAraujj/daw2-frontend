@@ -4,9 +4,8 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
 import { useNavigate } from 'react-router-dom';
+import { alpha } from '@mui/material';
 
 
 
@@ -22,7 +21,7 @@ function BarraNavegacao() {
       <AppBar
         position="static"
         sx={{
-          backgroundColor: "#34230E",
+          backgroundColor: theme => alpha("#34230E", 0.8),
 
         }}
       >

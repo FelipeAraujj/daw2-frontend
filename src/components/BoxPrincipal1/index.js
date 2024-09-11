@@ -2,7 +2,7 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import { alpha } from '@mui/material';
 
-function BoxPrincipal1() {
+function BoxPrincipal1({children}) {
   return (
     <Box
       height={700}
@@ -19,6 +19,7 @@ function BoxPrincipal1() {
 
       }}
     >
+      {children}
     </Box>
   );
 }

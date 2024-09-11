@@ -8,7 +8,6 @@ import Typography from '@mui/material/Typography';
 
 
 
-
 function PaginaPrincipal() {
 
   return (
@@ -16,6 +15,10 @@ function PaginaPrincipal() {
 
 
     <ImagemPrincipal>
+
+
+      <BarraNavegacao/>
+     
 
 
 
@@ -37,8 +40,14 @@ function PaginaPrincipal() {
         sx={{ display: "flex" }}
       >
 
-        <BoxPrincipal1 />
-        <BoxPrincipal1 />
+        <BoxPrincipal1 >
+
+        </BoxPrincipal1>
+
+
+        <BoxPrincipal1>
+
+        </BoxPrincipal1>
 
       </Box>
 

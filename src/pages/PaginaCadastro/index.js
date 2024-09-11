@@ -5,6 +5,8 @@ import { Box } from "@mui/material";
 import BoxLogin from "../../components/BoxLogin";
 import Typography from '@mui/material/Typography';
 import Titulo from "../../components/Titulo";
+import BoxCadastro from "../../components/BoxCadastro";
+
 
 
 function PaginaCadastro() {
@@ -18,7 +20,7 @@ function PaginaCadastro() {
         sx={{ display: "flex" }}
       >
 
-        
+      <BoxCadastro/>
 
 
 
