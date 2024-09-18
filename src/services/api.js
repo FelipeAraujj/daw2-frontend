@@ -5,10 +5,10 @@ const api = axios.create({
 });
 
 export const createlogin = async (loginData) => {
-    return await api.post("http://localhost:1337/api, login.data");
+    return await api.post("/logindata", loginData);
 
 }
 
 export default {
-    createlogin
+    login
 };
