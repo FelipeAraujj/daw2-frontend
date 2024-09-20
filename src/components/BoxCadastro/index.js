@@ -126,6 +126,7 @@ function BoxCadastro() {
                             />
 
                             <Button
+                                onClick={() => { navigate("/login") }}
                                 type="submit"
                                 fullWidth
                                 variant="contained"

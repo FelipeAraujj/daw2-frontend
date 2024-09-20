@@ -108,6 +108,7 @@ function BoxLogin() {
                             />
 
                             <Button
+                                onClick={() => { navigate("/Principal") }}
                                 type="submit"
                                 fullWidth
                                 variant="contained"

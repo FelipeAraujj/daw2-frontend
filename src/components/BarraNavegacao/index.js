@@ -36,6 +36,11 @@ function BarraNavegacao() {
             color="inherit"
             onClick={() => { navigate("/login") }}
           >
+            Relatório</Button>
+          <Button
+            color="inherit"
+            onClick={() => { navigate("/login") }}
+          >
             Sair</Button>
         </Toolbar>
       </AppBar>
